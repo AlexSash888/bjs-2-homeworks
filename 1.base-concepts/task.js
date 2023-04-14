@@ -3,8 +3,8 @@ function solveEquation(a, b, c) {
   let dscr = Math.pow(b, 2) - 4 * a * c;
   let arr = [];
 
-  let dscr_2 = (-b + Math.sqrt(dscr)) / (2 * a);
-  let dscr_3 = (-b - Math.sqrt(dscr)) / (2 * a);
+  // let dscr_2 = (-b + Math.sqrt(dscr)) / (2 * a);
+  // let dscr_3 = (-b - Math.sqrt(dscr)) / (2 * a);
 
   if (dscr < 0) {
     return arr;
